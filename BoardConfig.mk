@@ -180,3 +180,6 @@ TW_LOAD_VENDOR_MODULES := "exfat.ko"
 TW_BACKUP_EXCLUSIONS := /data/fonts,/data/adb/ap,/data/adb/ksu
 TW_FRAMERATE := 60
 
+# PBRP specific build flags
+PB_MAINTAINER := Minecraft-VM
+PB_MAINTAINER_INFO := @MinecraftVM (GitHub: MinecraftVM)
