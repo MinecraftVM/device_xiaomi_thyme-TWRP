@@ -181,5 +181,9 @@ TW_BACKUP_EXCLUSIONS := /data/fonts,/data/adb/ap,/data/adb/ksu
 TW_FRAMERATE := 60
 
 # PBRP specific build flags
+PB_OFFICIAL := true
 PB_MAINTAINER := Minecraft-VM
 PB_MAINTAINER_INFO := @MinecraftVM (GitHub: MinecraftVM)
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_DEFAULT_THEME := pitchblack
