@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/alioth
+DEVICE_PATH := device/xiaomi/thyme
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
@@ -23,7 +23,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 PRODUCT_RELEASE_NAME := thyme
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := alioth
+PRODUCT_DEVICE := thyme
 PRODUCT_NAME := twrp_thyme
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10S
