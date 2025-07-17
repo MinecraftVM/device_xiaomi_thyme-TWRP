@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libinit_alioth",
+    name: "libinit_thyme",
     header_libs: [
         "libbase_headers",
     ],
